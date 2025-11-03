@@ -28,8 +28,8 @@
 
 
 ## 贡献者与分工
-- 李晨语：鉴权/卖家端/SQLite 结构与迁移
-- 邵乐怡：买家端/订单生命周期/搜索（Mongo 优先与回退）
+- 李晨语：
+- 邵乐怡：
 
 ## 技术栈
 - 后端：Flask
@@ -82,6 +82,8 @@ pip install -r requirements.txt
 ```
 
 2) 导入图书数据到 MongoDB（推荐，用于启用全文检索）
+- 从百度网盘下载图书数据到 .\fe\data:
+  链接：https://pan.baidu.com/s/1bjCOW8Z5N_ClcqU54Pdt8g
 - 方案 A（带索引创建，推荐）：
 ```powershell
 python fe/data/import_books_mongo.py --mongo-url mongodb://localhost:27017/ --db bookstore --sqlite-file fe/data/book.db
