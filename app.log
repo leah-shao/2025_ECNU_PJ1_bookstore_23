@@ -1,0 +1,1659 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 34, in register
+    u = user.User()
+        ^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 40, in __init__
+    db_conn.DBConn.__init__(self)
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\db_conn.py", line 6, in __init__
+    self.conn = store.get_db_conn()
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.store' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:39:31] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 59, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\CDMS.Xuan_ZHOU.2025Autumn.DaSE\bookstore\be\model\user.py", line 22, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'. Did you mean: 'encode'?
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:00] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:26] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 514 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/password HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/unregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2025 14:42:45] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:38:20] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:08] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "POST /buyer/add_funds HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /debug/user_balance [GET]
+Traceback (most recent call last):
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿Ó≥ø”Ô\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lcy\cdms\remote_cdms\bookstore-project1\bookstore\be\view\debug.py", line 17, in user_balance
+    conn = db_conn.get_db_conn()
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'be.model.db_conn' has no attribute 'get_db_conn'
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "[35m[1mGET /debug/user_balance?user_id=test_order_buyer_8d4099b2-b871-11f0-87d8-088e90d1e92f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:57:09] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "GET /debug/user_balance?user_id=test_order_buyer_d74574a5-b871-11f0-952b-088e90d1e92f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 12:59:14] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "GET /debug/user_balance?user_id=test_order_buyer_f93b8eaf-b871-11f0-b887-088e90d1e92f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /seller/ship HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "POST /buyer/receive HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "GET /buyer/query_orders?user_id=test_order_buyer_f93b8eaf-b871-11f0-b887-088e90d1e92f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 13:00:10] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:08:54] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:25:27] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:49:30] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 517 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:56] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:57] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 513 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:52:59] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "GET /buyer/query_orders?user_id=test_order_buyer_bc1337f2-b881-11f0-bc0a-088e90d1e92f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/ship HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/receive HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "GET /buyer/query_orders?user_id=test_order_buyer_bc1337f2-b881-11f0-bc0a-088e90d1e92f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/password HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /buyer/payment HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/unregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "GET /search/?q=python&page=1&page_size=3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:00] "GET /search/?q=python&page=2&page_size=3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:53:12] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:55:47] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 513 -
+INFO:werkzeug:127.0.0.1 - - [03/Nov/2025 14:57:30] "GET /shutdown HTTP/1.1" 200 -
